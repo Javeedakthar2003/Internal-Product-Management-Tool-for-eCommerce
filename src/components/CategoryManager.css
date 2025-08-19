@@ -1,0 +1,100 @@
+/* Category List */
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+/* Category Card (Optional for nicer look) */
+.category-card {
+  background-color: #f3f4f6;
+  padding: 12px 18px;
+  border-radius: 10px;
+  min-width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.category-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Product Table */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.product-table th,
+.product-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.product-table th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+  .product-table, 
+  .product-table thead, 
+  .product-table tbody, 
+  .product-table th, 
+  .product-table td, 
+  .product-table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .product-table tr {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e5e7eb;
+    padding: 10px 0;
+  }
+
+  .product-table td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .product-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 15px;
+    width: 45%;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .product-table th {
+    display: none;
+  }
+}
+
+/* Optional: Add hover effect for table rows */
+.product-table tbody tr:hover {
+  background-color: #f9fafb;
+  transition: background-color 0.2s;
+}
+
+/* Table images */
+.product-table img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}
