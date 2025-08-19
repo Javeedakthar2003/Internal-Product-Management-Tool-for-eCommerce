@@ -3,43 +3,87 @@
 Interview Design Task – Internal Product Management Tool Link : https://internal-product-management-tool-for-e-commerce-r192-96xbjaenk.vercel.app/
 
 
-Context
-We are building an internal tool to manage the product catalog of an eCommerce platform.
-The platform currently sells dresses and shoes.
-Every 6 months, it plans to expand into new categories (e.g., watches, smartphones, grooming products, accessories).
-Each category has its own unique attributes. For example:
-Smartphones → OS, RAM, Battery Size
-Watches → Dial Color, Dial Size, Strap Type
-The tool should enable internal users (merchandisers, category managers) to:
+🛠️ Internal Product Management Tool for eCommerce
+📌 Overview
+
+This project is an Internal Product Management Tool designed for an eCommerce platform to manage its product catalog.
+The platform currently sells dresses and shoes, but it expands into new product categories every 6 months (e.g., watches, smartphones, grooming products, accessories).
+
+This tool enables merchandisers and category managers to:
+
 Define new product categories and their specific attributes
+
 Create, update, and manage products with category-specific attributes
-Ensure data integrity and support scalability for future category expansion
-Task Expectations
-You will approach this assignment in three structured steps:
-Step 1: Database Design
-Design a scalable, relational database schema that supports:
-Dynamic product categories
-Custom attributes per category
-Product creation and updates
-Deliverables:
-ERD (Entity Relationship Diagram) with entities, attributes, data types, and relationships
-A short justification of your design decisions (e.g., normalization, flexibility, future-proofing)
-Step 2: Class Design
-Based on the database schema, create a class diagram for the tool.
-Clearly highlight:
-Class relationships
-Key methods and responsibilities
-Deliverables:
-Class diagram with appropriate detail
-Step 3: Implementation
-Implement the internal tool using a tech stack of your choice.
-The tool should allow managing:
-Categories
-Attributes
-Products
-Deliverables:
-Working code hosted on GitHub
-Evaluation Criteria
+
+Ensure data integrity and provide scalability for future category expansion
+
+🚀 Features
+
+📂 Category Management (Add/Edit/Delete product categories)
+
+⚙️ Attribute Management (Define custom attributes for each category)
+
+🛒 Product Management (Create, update, and manage products with category-specific attributes)
+
+✅ Scalable Database Design supporting future expansion
+
+🔒 Ensures normalization and data integrity
+
+🏗️ Step 1: Database Design
+
+Designed a relational database schema to support dynamic categories and custom attributes.
+
+Entities include:
+
+Category
+
+Attribute
+
+Product
+
+ProductAttributeValue
+
+🔗 ERD (Entity Relationship Diagram)
+
+(Add your ERD diagram image here — e.g., ![ERD](docs/ERD.png))
+
+✍️ Design Justification
+
+Normalization: Avoided data redundancy by separating attributes from products.
+
+Flexibility: Allows adding new categories and attributes without schema changes.
+
+Future-proofing: Scales with new product categories (e.g., smartphones, watches).
+
+🧩 Step 2: Class Design
+
+Created class diagram aligned with the database schema.
+
+Major classes:
+
+Category
+
+Attribute
+
+Product
+
+ProductManager
+
+📊 Class Diagram
+
+(Add your class diagram image here — e.g., ![Class Diagram](docs/ClassDiagram.png))
+
+💻 Step 3: Implementation
+
+The tool is implemented using [Your Tech Stack Here: e.g., Python (Flask/Django) + SQLite/MySQL + React/HTML].
+
+🔑 Core Modules
+
+Category Management → Add/Edit/Delete categories
+
+Attribute Management → Define attributes for each category
+
+Product Management → Add/Edit/Delete products with category-specific attributes
 We are not measuring speed. Quality matters more than how fast you finish.
 We will evaluate based on:
 Database Design: scalability, normalization, flexibility
