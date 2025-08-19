@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Internal%20Product%20Management%20Tool/static/css/main.f044a7d2.css",
+    "main.js": "/Internal%20Product%20Management%20Tool/static/js/main.68b1c7bc.js",
+    "index.html": "/Internal%20Product%20Management%20Tool/index.html",
+    "main.f044a7d2.css.map": "/Internal%20Product%20Management%20Tool/static/css/main.f044a7d2.css.map",
+    "main.68b1c7bc.js.map": "/Internal%20Product%20Management%20Tool/static/js/main.68b1c7bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f044a7d2.css",
+    "static/js/main.68b1c7bc.js"
+  ]
+}
