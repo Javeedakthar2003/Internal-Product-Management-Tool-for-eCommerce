@@ -90,25 +90,3 @@ Database Design: scalability, normalization, flexibility
 Class Design: clarity, maintainability, extensibility
 Implementation: code quality, structure, documentation, usability
 Completeness: following instructions, delivering all required artifacts
-
-📂 Project Structure
-├── public/                 # Static files (favicon, manifest, logos)
-├── src/
-│   ├── components/         # UI Components
-│   │   ├── CategoryManager.js / .css
-│   │   ├── ProductManager.js / .css
-│   │   ├── Dashboard.js / .css
-│   │   ├── Navigation.js / .css
-│   │   ├── Footer.js
-│   │   └── manager-container.css
-│   ├── utils/
-│   │   └── database.js     # Mock database for categories & products
-│   ├── App.js              # Main app container
-│   ├── App.css
-│   ├── index.js            # Entry point
-│   └── index.css
-├── package.json            # Project dependencies
-├── package-lock.json
-├── .gitignore
-└── README.md
-
