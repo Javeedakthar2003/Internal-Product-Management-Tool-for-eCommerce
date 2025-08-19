@@ -1,4 +1,8 @@
 
+
+Interview Design Task – Internal Product Management Tool Link : https://internal-product-management-tool-for-e-commerce-r192-96xbjaenk.vercel.app/
+
+
 Context
 We are building an internal tool to manage the product catalog of an eCommerce platform.
 The platform currently sells dresses and shoes.
