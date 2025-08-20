@@ -1,7 +1,6 @@
 
 
-Interview Design Task – Internal Product Management Tool Link : https://internal-product-management-tool-for-e-commerce-r192-96xbjaenk.vercel.app/
-
+Interview Design Task – Internal Product Management Tool Link : https://ecommerce-tool.netlify.app/
 
 🛠️ Internal Product Management Tool for eCommerce
 📌 Overview
